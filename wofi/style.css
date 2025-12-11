@@ -1,0 +1,65 @@
+* {
+    font-family: "JetBrainsMono Nerd Font Propo", monospace;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    text-shadow: none;
+    background: transparent;
+    color: #cad3f5; /* fg color */
+}
+
+/* Window styling */
+window {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(30, 30, 40, 1); /* semi-transparent */
+}
+
+/* Input box */
+#input {
+    all: unset;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: rgba(30, 30, 40, 1); /* semi-transparent */
+    color: #ffffff; /* accent */
+}
+
+/* Entries container */
+#entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: rgba(30, 30, 40, 0.9); /* semi-transparent */
+}
+
+/* Entry text */
+#entry #text {
+    color: #cad3f5;
+}
+
+/* Entry icon */
+#entry image {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    color: 
+}
+
+/* Selected entry */
+#entry:selected {
+    background-color: rgba(245, 189, 230, 0.3); /* sedikit highlight */
+    color: #1e1e2e; /* fg gelap agar kontras */
+}
+
+/* Text inside selected entry */
+#entry:selected #text {
+    color: #1e1e2e;
+}
+
+#entry arrow{
+  display: none;
+}
+
